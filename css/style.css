@@ -1,0 +1,204 @@
+/********************************* main *********************************/
+body {
+	font-family: 'helveticaneueregular', Arial, sans-serif;
+}
+.container {
+	max-width: 1170px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/********************************* main *********************************/
+/********************************* header *********************************/
+.main-head {
+	background: url('../img/back.png') no-repeat;
+	background-size: cover;
+}
+.top-content_wrapp {
+	padding-top: 30px;
+	padding-bottom: 90px;
+	position: relative;
+	z-index: 9;
+}
+.logo {
+	max-width: 46px;
+	float: left;
+	line-height: 68px;
+	margin-left: 15px;	
+}
+.logo-link {
+	display: block;
+}
+.logo-link img {
+	vertical-align: middle;
+}
+.top-nav {
+	float: right;
+	margin-right: 15px;
+}
+.top-nav_item {
+	float: left;
+	transition: .5s;
+	border-radius: 5px;
+}
+.top-nav_link {
+	display: block;
+	color: #fff;
+	line-height: 68px;
+	padding-right: 25px;
+	padding-left: 25px;
+	transition: .5s;
+}
+.top-nav_item:hover .top-nav_link ,
+.head-link:hover {
+	color: #000;
+}
+.top-nav_item:hover,
+.head-link:hover {
+    background-color: rgba(255,255,255,.5);
+	transition: .5s
+}
+.top-nav_item:hover .top-nav_link {
+	padding-right: 20px;
+	padding-left: 30px;
+}
+.header-content {
+	clear: both;
+	color: #fff;
+	margin-top: 200px;
+}
+.header-title {
+	font-size: 38px;
+	line-height: 68px;
+	margin-bottom: 50px;
+	font-family: 'helveticaneuebold', Arial, sans-serif;
+}
+.header-desc {
+	font-size: 20px;
+	line-height: 36px;
+	margin-bottom: 90px;
+}
+.head-link {
+	display: inline-block;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	text-align: center;
+	padding-right: 70px;
+	padding-left: 70px;
+	color: #fff;
+	text-transform: uppercase;
+	transition: .5s;
+	font-family: 'helveticaneuemedium', Arial, sans-serif;
+	font-size: 18px;
+	line-height: 65px;
+}
+/********************************* header end*********************************/
+/********************************* content*********************************/
+.custom-style {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.section-title {
+	color: #ff8400;
+	font-size: 18px;
+	line-height: 68px;
+	text-align: center;
+	font-family: 'helveticaneuebold', Arial, sans-serif;
+}
+.section-subtitle {
+	font-size: 36px;
+	line-height: 68px;
+	font-family: 'helveticaneuebold', Arial, sans-serif;
+	text-align: center;
+}
+.hiw-item {
+	margin-top: 80px;
+	text-align: center;
+}
+.hiw-img_wrapp {
+    max-width: 125px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+.hiw-title {
+	font-size: 18px;
+	margin-bottom: 20px;
+	font-family: 'helveticaneuebold', Arial, sans-serif;
+}
+.hiw-desc {
+	font-size: 18px;
+	line-height: 24px;
+	font-family: 'helveticaneuelight', Arial, sans-serif;
+}
+/********************************* content end*********************************/
+/********************************* footer *********************************/
+.main-footer {
+	padding-top: 140px;
+	padding-bottom: 140px;
+	text-align: center;
+	color: #fff;
+}
+.footer-title {
+	font-size: 30px;
+	line-height: 68px;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+	font-family: 'helveticaneuebold', Arial, sans-serif;
+	letter-spacing: 5px;
+}
+.footer-subtitle {
+	font-size: 18px;
+	line-height: 36px;
+	margin-bottom: 80px;
+	max-width: 730px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.mail-input_wrapp input{
+	display: block;
+	width: 100%;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	background-color: transparent;
+	padding: 20px 30px;
+	font-size: 16px;
+	line-height: 36px;
+	color: #fff;
+}
+::-webkit-input-placeholder {
+	color: #fff;
+}
+.mail-btn_wrapp button{
+	display: block;
+	background-color: #fff;
+	text-transform: uppercase;
+	color: #ff8400;
+	line-height: 36px;
+	padding: 20px 30px;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: .5s;
+	border: 2px solid #fff;
+	font-family: 'helveticaneuemedium', Arial, sans-serif;
+	font-size: 18px;
+}
+.mail-btn_wrapp button:hover {
+	background: rgba(255,255,255,.5);
+	transition: .5s;
+}
+.main-footer ,
+.hamburger-nav::before{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fc5a59+0,ff9626+100 */
+	background: #fc5a59; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #fc5a59 0%, #ff9626 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #fc5a59 0%,#ff9626 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #fc5a59 0%,#ff9626 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc5a59', endColorstr='#ff9626',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	position: relative;
+}
+/********************************* footer end*********************************/
